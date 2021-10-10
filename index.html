@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/119/119703.png"
+    />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img
+          class="logo-gif"
+          src="https://media3.giphy.com/media/Z968Qd9K6UBO4uj7Oc/200.webp?cid=ecf05e47dtyoglyfp4ot2grl3jskcygm70uzgatr8c7psgmb&rid=200.webp&ct=s"
+        />
+        <h1 class="logo-name">GMN</h1>
+      </div>
+      <h1 class="instruction-pc">
+        Please select between <span>(1 - 20)</span>
+      </h1>
+      <h1 class="instruction-mobile">Please select between (1 - 20)</h1>
+    </div>
+  </body>
+  <div class="section-1">
+    <h1>Guess my <span>number!</span></h1>
+    <div class="number">?</div>
+    <div class="main">
+      <section class="left">
+        <input type="number" class="guess" />
+        <div class="container-btn">
+          <button class="btn check">Check!</button>
+          <button class="btn again">Again</button>
+        </div>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">
+          Score:
+          <span class="score">20</span>
+        </p>
+        <p class="label-highscore">
+          Highscore:
+          <span class="highscore">0</span>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <script src="myscripts.js"></script>
+</html>
