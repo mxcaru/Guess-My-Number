@@ -169,7 +169,7 @@ span {
   color: #da0037;
 }
 
-.btn {
+.btn-check, .btn-again {
   border: none;
   background-color: #ededed;
   color: #222;
@@ -179,12 +179,12 @@ span {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-check:hover, .btn-again:hover {
   background-color: #da0037;
   color: #ededed;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 758px) {
   .header .instruction-mobile {
     font-size: 0.75rem;
     display: -webkit-box;
@@ -199,7 +199,7 @@ span {
   .section-1 {
     margin: 2rem;
   }
-  .btn {
+  .btn-check, .btn-again {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 758px) {
   .header .instruction-mobile {
     font-size: 0.75rem;
     display: flex;
@@ -12,14 +12,19 @@
   .section-1 {
     margin: 2rem;
   }
-
-  .btn {
+  %btn-mobile {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
   }
+  .btn-check {
+    @extend %btn-mobile;
+  }
 
+  .btn-again {
+    @extend %btn-mobile;
+  }
   .container-btn {
     display: flex;
     justify-content: center;
