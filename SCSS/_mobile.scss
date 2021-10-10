@@ -12,4 +12,17 @@
   .section-1 {
     margin: 2rem;
   }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .container-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
