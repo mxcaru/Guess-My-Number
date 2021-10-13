@@ -1,7 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-$retro-font: "Press Start 2P", cursive;
+$retro-font: 'Press Start 2P', cursive;
 $dark-color: #171717;
 $primary-color: #444444;
 $secondary-color: #da0037;
 $light-color: #ededed;
+
+:export {
+  darkColor: $dark-color;
+}
